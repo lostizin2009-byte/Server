@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gesto-arduino-websocket
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
